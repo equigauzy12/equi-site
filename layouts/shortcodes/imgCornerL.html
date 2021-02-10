@@ -1,18 +1,9 @@
-<!-- <div class="clearfix">
-    <img src="{{ .Site.BaseURL }}/media/{{ .Get "img" }}" class="w-25 col-md-6 float-md-start mb-3 ms-md-3" alt="{{ .Get "alt" }}">
-
-</div> -->
-
-<div class="container">
-    <article class="row single-post mt-5 no-gutters">
-        <div class="col-md-6">
-            <div class="image-wrapper float-left pr-3">
-                <img class="w-25" src="{{ .Site.BaseURL }}/media/{{ .Get "img" }}" alt="{{ .Get "alt" }}">
-            </div >
-            <div class="single-post-content-wrapper p-3"> 
-                {{ .Inner | markdownify}}
-            </div>
-        </div>
-    </article>
-    
+<div class="container-fluid">
+    <div class="clearfix" style="text-align: justify;">
+        
+            <img src="{{ .Site.BaseURL }}/media/{{ .Get "img" }}" class="w-25 col-md-6 float-md-start mb-3 me-md-5" alt="{{ .Get "alt" }}">
+        
+        {{ .Inner | markdownify}}
+    </div>
 </div>
+    
