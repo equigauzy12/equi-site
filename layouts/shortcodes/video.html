@@ -1,16 +1,10 @@
-<div class="container-fluid">
-    <!-- <div class="d-sm-flex "> -->
-
-        <!-- <div class="bs-example" data-example-id="responsive-embed-16by9-iframe-youtube"> -->
-               
-            <div class="embed-responsive embed-responsive-16by9" >
-                <iframe class="d-block mx-auto"  src="https://www.youtube.com/embed/{{ .Get "video" }}" allowfullscreen="">
-           
-                </iframe>    
-            </div>  
-            
-            <p class="text-center"><a class="text-center" href="https://www.youtube.com/embed/{{ .Get "video" }}">{{ .Get "titre" }}</a></p>
-        <!-- </div> -->
-    <!-- </div> -->
-
+<div class="row">
+        <div class="embed video-player ">
+            <iframe class="youtube-player d-block mx-auto" type="text/html" width="640" height="385"
+        src="https://www.youtube.com/embed/{{ .Get "video" }}" allowfullscreen frameborder="0">
+            </iframe>
+        </div>
+</div>
+<div class="row">
+    <p class="text-center"><a class="text-center" href="https://www.youtube.com/embed/{{ .Get "video" }}">{{ .Get "titre" }}</a></p>
 </div>
