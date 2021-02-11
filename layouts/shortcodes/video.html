@@ -1,12 +1,12 @@
-<div class="row ">
-    <div class="col-sm">
-        <div class="embed-responsive embed-responsive-16by9 ">
-            <iframe class="youtube-player d-block mx-auto" type="text/html" width="560" height="315" 
+<div class="container">
+    <div class="row  justify-content-center">
+        <div class="col-sm-8 ">
+            <div class="ratio ratio-16x9  ">
+                <iframe class="youtube-player d-block  -px w-100 h-100 " type="text/html" 
         src="https://www.youtube.com/embed/{{ .Get "video" }}" allowfullscreen frameborder="0">
-            </iframe>
-        </div>
-    </div>    
-</div>
-<div class="row">
-    <p class="text-center"><a class="text-center" href="https://www.youtube.com/embed/{{ .Get "video" }}">{{ .Get "titre" }}</a></p>
+                </iframe>
+            </div>
+            <span><p class="text-center"><a class="text-center" href="https://www.youtube.com/embed/{{ .Get "video" }}">{{ .Get "titre" }}</a></p></span>
+        </div>    
+    </div>
 </div>
