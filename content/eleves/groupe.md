@@ -11,7 +11,7 @@ Quelques photos en "carousel"
         <div class="col-sm-6">
             <div id="myCarousel" class="carousel  slide " data-bs-ride="carousel" >
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-item active" data-bs-interval="3200">
                         <img src=" /media/personnes/enfant-cheval.jpg" class="d-block img-fluid mx-auto w-100" alt="enseignant"  >
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
