@@ -5,7 +5,7 @@ draft: false
 ---
 
 ## Lorem
-Quelques photos en "carousel"
+Quelques photos en "carousel" défilant automatiquement. On peut modifier la vitesse de défilement. Et appuyer sur les flèches de navigation pour passer à la suivante ou revenir à la précédente. Ici un carousel à 3 photos, mais on peut en mettre autant que l'on veut.
 <div class="container mb-5" >
     <div class="row justify-content-center">
         <div class="col-sm-6">
@@ -34,7 +34,7 @@ Quelques photos en "carousel"
     </div>
 </div>
 ## Ipsum
-Les mêmes photos en carousel fixe
+Les mêmes photos en carousel fixe. Naviguer entre les photos à l'aide des flèches de défilement.
 <div class="container mb-5" >
     <div class="row justify-content-center">
         <div class="col-sm-6">
