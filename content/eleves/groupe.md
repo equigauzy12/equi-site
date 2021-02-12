@@ -5,3 +5,32 @@ draft: false
 ---
 
 ## Lorem
+Quelques photos en "carousel"
+<div class="container mb-5" >
+    <div class="row justify-content-center">
+        <div class="col-sm-6">
+            <div id="myCarousel" class="carousel  slide " data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src=" /media/personnes/enfant-cheval.jpg" class="d-block img-fluid mx-auto w-100" alt="enseignant"  >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/media/personnes/marieno-chevaux.jpg" class="d-block mx-auto w-100" alt="travail" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/media/chevaux/poneys.jpg" class="d-block mx-auto w-100" alt="travail" alt="personne" >
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+## Ipsum
