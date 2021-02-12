@@ -5,7 +5,9 @@ draft: false
 ---
 
 ## Lorem
-Quelques photos en "carousel" défilant automatiquement. On peut modifier la vitesse de défilement. Et appuyer sur les flèches de navigation pour passer à la suivante ou revenir à la précédente. Ici un carousel à 3 photos, mais on peut en mettre autant que l'on veut.
+Quelques photos en "carousel" défilant automatiquement. On peut modifier la vitesse de défilement. Et appuyer sur les flèches de navigation pour passer à la suivante ou revenir à la précédente.  
+Ici un carousel à 3 photos, mais on peut en mettre autant que l'on veut.  
+Le temps de défilement de la première photo est plus long que sur les suivantes (3,2 secondes contre 2).
 <div class="container mb-5" >
     <div class="row justify-content-center">
         <div class="col-sm-6">
