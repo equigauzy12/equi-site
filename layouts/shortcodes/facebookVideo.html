@@ -1,6 +1,13 @@
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="{{ .Get "nonce" }}"></script>
+<div class="container">
+    <div class="row  justify-content-center">
+        <div class="col-sm-8 ">
 
-<div class="fb-video" data-href="{{ .Get "data-href" }}" data-width="500" data-show-text="false"><blockquote cite="{{ .Get "cite" }}" 
-    class="fb-xfbml-parse-ignore"><a href="{{ .Get "hrefA" }}" ></a><p></p>Publiée par <a href="{{ .Get "hrefB" }}">{{ .Get "nom" }}</a>{{ .Get "date" }}</blockquote>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="{{ .Get "nonce" }}"></script>
+
+            <div class="fb-video" data-href="{{ .Get "data-href" }}" data-width="500" data-show-text="false"><blockquote cite="{{ .Get "cite" }}"         class="fb-xfbml-parse-ignore"><a href="{{ .Get "hrefA" }}" ></a><p></p>Publiée par <a href="{{ .Get "hrefB" }}">{{ .Get "nom" }}</a>{{ .Get "date" }}</blockquote>
+            </div>
+        </div>
+    </div>
 </div>
+
