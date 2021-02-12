@@ -34,11 +34,11 @@ Quelques photos en "carousel" défilant automatiquement. On peut modifier la vit
     </div>
 </div>
 ## Ipsum
-Les mêmes photos en carousel fixe. Naviguer entre les photos à l'aide des flèches de défilement.
+Les mêmes photos en carousel fixe
 <div class="container mb-5" >
     <div class="row justify-content-center">
         <div class="col-sm-6">
-            <div id="myCarouselFixe" class="carousel  slide " data-bs-ride="carousel" >
+            <div id="myCarouselFixe" class="carousel  slide " data-bs-ride="carousel" data-bs-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src=" /media/personnes/enfant-cheval.jpg" class="d-block img-fluid mx-auto w-100" alt="enseignant"  >
@@ -62,3 +62,4 @@ Les mêmes photos en carousel fixe. Naviguer entre les photos à l'aide des flè
         </div>
     </div>
 </div>
+
